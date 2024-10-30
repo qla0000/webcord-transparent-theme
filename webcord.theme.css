@@ -1,0 +1,101 @@
+/* Alap átlátszó háttér beállítások */
+:root {
+    --background-primary: transparent;
+    --background-secondary: rgba(13, 27, 42, 0.3);  /* Világosabb sötétkék */
+    --background-tertiary: rgba(8, 17, 28, 0.8);    /* Közepesen sötét kék */
+    --background-floating: rgba(5, 11, 20, 0.8);    /* Legsötétebb kék */
+    --main-rgb: 5,11,20;  /* Sötétkék alap */
+    --main-content-opacity: 0.3;
+    --sidebar-opacity: 0.5;
+    --accent-hue: 210;    /* Kék árnyalat */
+    --accent-saturation: 70%;
+    --accent-lightness: 50%;
+    --message-color: rgba(13,27,42,0.4);
+    --message-color-hover: rgba(13,27,42,0.55);
+    --card-color: rgba(8,17,28,0.4);
+    --card-color-hover: rgba(8,17,28,0.5);
+    --card-color-select: rgba(8,17,28,0.625);
+  }
+  
+  /* Általános háttér átlátszóság */
+  .theme-dark, 
+  .theme-light {
+    --background-primary: transparent !important;
+    --background-secondary: transparent !important;
+    --background-tertiary: transparent !important;
+  }
+  
+  /* Konténerek átlátszóvá tétele */
+  .container-1r6BKw,
+  .container-2lgZY8,
+  .panels-j1Uci_,
+  .sidebar-2K8pFh,
+  .chat-3bRxxu {
+    background: transparent !important;
+  }
+  
+  /* Üzenet konténerek háttere */
+  .message-2qnXI6 {
+    background-color: rgba(13, 27, 42, 0.4) !important;
+    border-radius: 8px;
+    margin: 4px 0;
+    padding: 8px;
+  }
+  
+  /* Szövegbeviteli mezők háttere */
+  .input-2_SIlA,
+  .channelTextArea-rNsIhG {
+    background-color: rgba(8, 17, 28, 0.3) !important;
+  }
+  
+  /* Lebegő elemek (pl. menük) háttere */
+  .menu-3sdvDG,
+  .contextMenu-HLZMGh {
+    background-color: rgba(5, 11, 20, 0.9) !important;
+    backdrop-filter: blur(2px);
+  }
+  
+  /* Szövegek olvashatóságának javítása */
+  .content-1o0f9g,
+  .name-23GUGE,
+  .title-29uC1r {
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 1) !important;
+  }
+  
+  /* Ikonok láthatóságának megőrzése */
+  .icon-22AiRD,
+  .iconWrapper-2OrFZ1 {
+    opacity: 1 !important;
+  }
+  
+  /* Chat és menü szövegek olvashatóságának javítása */
+  .content-1jQy2l,  /* Chat szövegek */
+  .name-3Vmqxm,    /* Menü elemek */
+  .title-17SveM,   /* Fejlécek */
+  .markup-eYLPri { /* Üzenetek szövege */
+    color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8) !important;
+  }
+  
+  /* Másodlagos szövegek (időbélyegek, alcímek) */
+  .timestamp-p1Df1m,
+  .description-1sDbzZ,
+  .subtext-2HDqJ7 {
+    color: rgba(255, 255, 255, 0.8) !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  /* Csatorna nevek és kategóriák */
+  .name-28HaxV,
+  .name-3BUDLf {
+    color: #ffffff !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9) !important;
+  }
+  
+  /* Hivatkozások és kiemelt szövegek */
+  .mention,
+  .channelMention,
+  .roleMention {
+    color: #00b0f4 !important;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7) !important;
+  }
