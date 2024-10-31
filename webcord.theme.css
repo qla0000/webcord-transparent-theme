@@ -1,13 +1,13 @@
 /* Alap átlátszó háttér beállítások */
 :root {
     --background-primary: transparent;
-    --background-secondary: rgba(13, 27, 42, 0.3);  /* Világosabb sötétkék */
-    --background-tertiary: rgba(8, 17, 28, 0.8);    /* Közepesen sötét kék */
-    --background-floating: rgba(5, 11, 20, 0.8);    /* Legsötétebb kék */
-    --main-rgb: 5,11,20;  /* Sötétkék alap */
+    --background-secondary: rgba(13, 27, 42, 0.3);  
+    --background-tertiary: rgba(8, 17, 28, 0.8);    
+    --background-floating: rgba(5, 11, 20, 0.8);    
+    --main-rgb: 5,11,20;  
     --main-content-opacity: 0.3;
     --sidebar-opacity: 0.5;
-    --accent-hue: 210;    /* Kék árnyalat */
+    --accent-hue: 210;   
     --accent-saturation: 70%;
     --accent-lightness: 50%;
     --message-color: rgba(13,27,42,0.4);
@@ -30,7 +30,10 @@
   .container-2lgZY8,
   .panels-j1Uci_,
   .sidebar-2K8pFh,
-  .chat-3bRxxu {
+  .chat-3bRxxu,
+  .container_adcaac,
+  .container_b2ca13,
+  .scrollableContainer_bdfOde.themedBackground_bdfOde {
     background: transparent !important;
   }
   
@@ -99,3 +102,56 @@
     color: #00b0f4 !important;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7) !important;
   }
+
+button.button_df39db.button_dd4f85.colorBrand_dd4f85.grow_dd4f85 {
+  background: transparent !important;
+}
+
+/* Panel háttér átlátszóvá tétele */
+.panels-3wFtMD,
+.container-YkUktl,
+.container-1zzFcN {
+  background: transparent !important;
+}
+
+/* Gombok háttere */
+.button-12Fmur,
+.button-1YfofB {
+  background: transparent !important;
+}
+
+/* Panel konténer */
+.panels_a4d4d9,
+.container_adcaac,
+.container_b2ca13 {
+  background: transparent !important;
+}
+
+/* Chatbox átlátszóvá tétele */
+.channelTextArea-1FufC0,
+.scrollableContainer-15eg7h {
+  background: transparent !important;
+}
+
+.form-3gdLxP {
+  background: transparent !important;
+}
+
+.channelTextArea-1FufC0::before {
+  display: none !important;
+}
+
+.textArea-2CLwUE {
+  background: transparent !important;
+}
+
+.placeholder-1_mJY1 {
+  background: transparent !important;
+}
+
+/* Chatbox átlátszó háttérrel - jobban olvasható*/
+.channelTextArea-1FufC0,
+.scrollableContainer-15eg7h {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 8px;
+}
