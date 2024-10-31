@@ -1,10 +1,8 @@
 # WebCord Átlátszó Téma
 
 ### Telepítés:
-
-1. Másold a `webcord.theme.css` fájlt a WebCord témák mappájába
-2. Aktiváld a témát a WebCord beállításaiban
-3. Indítsd újra az alkalmazást a változtatások érvényesítéséhez
+- Bash/Zsh: ```webcord --add-css-theme```
+- Válaszd ki a css fájlt
 
 ### Testreszabás:
 
